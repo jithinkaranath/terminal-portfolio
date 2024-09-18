@@ -1,36 +1,28 @@
 {
   "additional_commands": [
     {
-      "label": "help",
-      "about": "View all commands"
+      "label": "history",
+      "about": "To know about history"
     },
     {
       "label": "clear",
       "about": "Clear the screen"
     },
     {
-      "label": "history",
-      "about": "To know about history"
-   },
-    {
-      "label": "setname",
-      "about": "To replace default 'visitor' name with your name"
-    },
-    {
-      "label": "theme",
-      "about": "To customize theme"
+      "label": "help",
+      "about": "View all commands"
     }
   ],
   "options": [
     {
       "label": "about",
       "about": "To know about me",
-      "value": "Hey there! I'm John Doe, a senior software engineer at Random Pvt. Ltd. in America  with a love for crafting digital solutions."
+      "value": "Hey there! I'm Jithin KS, Team Lead at Trois Infotech Pvt. Ltd. in Trivandrum, Kerala , India  with a love for crafting digital solutions."
     },
     {
       "label": "skills",
       "about": "To know about my skills",
-      "value": "I'm a versatile full-stack developer, adept at turning ideas into robust web applications. <br /> <br /> Proficient in MERN stack, Redux, React-Redux, Tailwind CSS, SQL, RESTful APIs and many more."
+      "value": "I'm a versatile full-stack developer, adept at turning ideas into robust web applications. <br /> <br /> Proficient in Java , JavaScript, Node, React, Redux, React-Redux, Tailwind CSS, SQL, RESTful APIs and many more."
     },
     {
       "label": "experience",
@@ -38,12 +30,20 @@
       "value": "I have more than 10 years of experience.",
       "data": [
         {
-          "label": "Random Pvt Ltd",
-          "value": "Senior software engineer <br />  Year:  2015-present"
+          "label": "Trois Infotech Pvt Ltd",
+          "value": "Senior software engineer , Team Lead <br />  Year:  2020-present"
         },
         {
-          "label": "Example Pvt Ltd",
-          "value": "Associate Software engineer <br />  Year:  2010-2015"
+          "label": "Bovlabs Pvt Ltd",
+          "value": "Software engineer <br />  Year:  2018-2020"
+        },
+        {
+          "label": "Kerala State GST Department",
+          "value": "Software engineer <br />  Year:  2016-2018"
+        },
+        {
+          "label": "Kerala State Civil Supplies Corp.",
+          "value": "Software engineer <br />  Year:  2015-2016"
         }
       ]
     },
@@ -53,31 +53,21 @@
       "value": "I've had the pleasure of working on diverse projects that showcase my skills and creativity.",
       "data": [
         {
-          "label": "E-commerce Platform",
-          "value": "Designed and developed a dynamic e-commerce website, featuring seamless payment processing and an extensive product catalog.",
-"url": "https://www.google.com"
+          "label": "K-Smart",
+          "value": "Designed and Developed the K-Smart Core Architecture for web application using React, Redux, React-Redux, Tailwind CSS, RESTful APIs and many more.",
+          "url": "https://ksmart.lsgkerala.gov.in/ui/web-portal"
         },
         {
-          "label": "Inventory Management System",
-          "value": "Crafted an intuitive application for efficient tracking and management of inventory in warehouse environments.",
-"url": "https://www.google.com"
-        },
-        {
-          "label": "Social Media Analytics Dashboard",
-          "value": "Built a powerful tool for analyzing social media data, providing insightful reports and visualizations.",
-"url": "https://www.google.com"
-        },
-        {
-          "label": "Real-time Chat Application",
-          "value": "Developed a cutting-edge messaging app with real-time capabilities, supporting both group chats and a fun array of emojis.",
-"url": "https://www.google.com"
+          "label": "Smart Garbage Management Sysyem",
+          "value": "An IoT-based intelligent garbage management solution that accommodates all features needed for planning and execution of solid waste management.The web-based admin portal and mobile app for millions of customers,service providers, officials.",
+          "url": "https://www.google.com"
         }
       ]
     },
     {
       "label": "contact",
       "about": "To get my contact details",
-      "value": "Feel free to reach out! You can contact me for any inquiries or collaborations. <br/> Email:  jithinkaranath@gmail.com  <br/> GitHub:  https://github.com/johnDoe  <br/> LinkedIn:  https://www.linkedin.com/in/johndoe"
+      "value": "Feel free to reach out! You can contact me for any inquiries or collaborations. <br/> Mobile:  +91 9400163960 <br/> Email:  jithinkaranath@gmail.com  <br/> GitHub:  https://github.com/jithinkaranath  <br/> LinkedIn:  https://www.linkedin.com/in/jithinkaranath"
     }
   ]
 }
