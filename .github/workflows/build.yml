@@ -27,14 +27,14 @@ jobs:
     - name: Setup pnpm
       uses: pnpm/action-setup@v2
       with:
-        version: 8 # or the version your project uses
+        version: 10 # or the version your project uses
         run_install: false
 
     - name: Install dependencies
       run: pnpm install
 
     - name: Build project
-      run: pnpm run build --if-present
+      run: pnpm build
 
     - name: Run tests
       run: pnpm test
