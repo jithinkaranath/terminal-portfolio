@@ -23,12 +23,19 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'pnpm'
 
-    - name: Install pnpm
-      run: npm install -g pnpm
+    - name: Setup pnpm
+      uses: pnpm/action-setup@v2
+      with:
+        version: 8 # or the version your project uses
+        run_install: false
 
-    - run: pnpm install
-    - run: pnpm run build --if-present
-    - run: pnpm test
+    - name: Install dependencies
+      run: pnpm install
+
+    - name: Build project
+      run: pnpm run build --if-present
+
+    - name: Run tests
+      run: pnpm test
 
